@@ -14,7 +14,7 @@ pipeline {
             steps {
                 script {
                     sh '''
-                    ./main/hello_exec
+                    ./main/hi_exec
                     '''
                 }
             }
